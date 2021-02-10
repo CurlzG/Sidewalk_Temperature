@@ -1,11 +1,12 @@
 # Sidewalk_Temperature
-This is my application, creating an android application that would grade the temperature of the sidewalk and indicate how safe it is for the animal to be walking on it
-
-<h4> This application </h4>
-<p> This application will make use of the openwaether api, that would give me levels on how to properly read the weather around the person. </p><br>
-
+<p>The main approach for this code will be to create an application that would allow animal owner check the application and be able to what surface is safe for the animal to walk on.</p><br>
+<p>The most important factor for this application is how I would evaluate the grading system and because we are dealing with real world elements, its important that I make approriate tests to be make sure that I can not except any strange outliers that would affect my grading system </p><br>
 <h3> The grading system </h3>
-<p> The grading itself would have three levels</p> <br>
-<p> level 1, which is the safest is anything up to 60 degrees, which is safe for the dogs to walk on </p><br>
-<p> level 2, which is when the paws of the animals being walked can be damaged in mintues which will be anything from 60-65 degrees </p><br>
-<p> level 3, which is when the paws of the animals will damaged in seconds which is anything greater than 65 degrees </p> <br>
+<ul>
+  <li>>60 Degrees</li>
+  <p> This means till up to 60 degrees it is safe for animals to be walked on without having to worry about damaging there paws </p>
+  <li>60-65 Degrees</li>
+  <p> Between 60-65 the animals paws can be damaged within minutes of being on top of that surface</p>
+  <li>65<</li>
+    <p> This means that anything that is greater than 65 degrees will damage the animals paws within seconds and should be avoid </p>
+</ul> 
