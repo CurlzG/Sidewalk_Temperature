@@ -1,6 +1,7 @@
 # Sidewalk_Temperature
 <p>The main approach for this code will be to create an application that would allow animal owner check the application and be able to what surface is safe for the animal to walk on.</p><br>
 <p>The most important factor for this application is how I would evaluate the grading system and because we are dealing with real world elements, its important that I make approriate tests to be make sure that I can not except any strange outliers that would affect my grading system </p><br>
+<p>The way this is going to work, is that by using the one call in openweather api, i will be able to compare the hourly to the daily and minutely to be able to allow to calculate teh average easily </p><br>
 <h3> The grading system </h3>
 <ul>
   <li>>60 Degrees</li>
