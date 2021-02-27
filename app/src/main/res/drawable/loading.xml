@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/paw" android:duration="350"/>
+    <item android:drawable="@drawable/paw2" android:duration="350"/>
+    <item android:drawable="@drawable/paw3" android:duration="350"/>
+    <item android:drawable="@drawable/paw4" android:duration="350"/>
+    <item android:drawable="@drawable/paw5" android:duration="350"/>
+    <item android:drawable="@drawable/paw6" android:duration="350"/>
+    <item android:drawable="@drawable/paw7" android:duration="350"/>
+    <item android:drawable="@drawable/paw8" android:duration="350"/>
+    <item android:drawable="@drawable/paw9" android:duration="350"/>
+    <item android:drawable="@drawable/paw10" android:duration="350"/>
+    <item android:drawable="@drawable/paw11" android:duration="350"/>
+    <item android:drawable="@drawable/paw12" android:duration="350"/>
+    <item android:drawable="@drawable/paw13" android:duration="350"/>
+    <item android:drawable="@drawable/paw14" android:duration="350"/>
+    <item android:drawable="@drawable/paw15" android:duration="350"/>
+</animation-list>

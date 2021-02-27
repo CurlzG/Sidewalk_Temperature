@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="horizontal"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <RelativeLayout
+            android:id="@+id/Rlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/darker_gray">
+
+            <TextView
+                android:id="@+id/Tarmac"
+                android:layout_width="367dp"
+                android:layout_height="180dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/zian_fzr_nylxteqruho_unsplash_1_" />
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/Tarmac"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:layout_toStartOf="@+id/circleTarmac"
+                android:layout_toLeftOf="@+id/circleTarmac"
+                android:text="Tarmac"
+                android:textColor="@color/white"
+                android:textSize="35dp" />
+
+
+            <TextView
+                android:id="@+id/circleTarmac"
+                android:layout_width="160dp"
+                android:layout_height="142dp"
+                android:layout_alignRight="@+id/Tarmac"
+                android:layout_alignBottom="@+id/Tarmac"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="21dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/circle" />
+
+            <TextView
+                android:id="@+id/circleTarmacText"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignStart="@+id/circleTarmac"
+                android:layout_alignLeft="@+id/circleTarmac"
+                android:layout_alignTop="@+id/circleTarmac"
+                android:layout_alignEnd="@+id/circleTarmac"
+                android:layout_alignRight="@+id/circleTarmac"
+                android:layout_alignBottom="@+id/circleTarmac"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="62dp"
+                android:text="TemperatureRange" />
+
+            <TextView
+                android:id="@+id/WhiteConcrete"
+                android:layout_width="367dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/Tarmac"
+                android:background="@drawable/whiteconcrete" />
+
+            <TextView
+                android:layout_width="149dp"
+                android:layout_height="98dp"
+                android:layout_alignLeft="@+id/WhiteConcrete"
+                android:layout_alignTop="@+id/WhiteConcrete"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="19dp"
+                android:layout_toStartOf="@+id/circleWhiteConcrete"
+                android:layout_toLeftOf="@+id/circleWhiteConcrete"
+                android:text="White Concrete"
+                android:textColor="@color/black"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/circleWhiteConcrete"
+                android:layout_width="160dp"
+                android:layout_height="142dp"
+                android:layout_below="@+id/Tarmac"
+                android:layout_alignRight="@+id/WhiteConcrete"
+                android:layout_alignBottom="@+id/WhiteConcrete"
+                android:layout_marginTop="21dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/circle" />
+
+            <TextView
+                android:id="@+id/circleWCText"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignStart="@+id/circleWhiteConcrete"
+                android:layout_alignLeft="@+id/circleWhiteConcrete"
+                android:layout_alignTop="@+id/circleWhiteConcrete"
+                android:layout_alignEnd="@+id/circleWhiteConcrete"
+                android:layout_alignRight="@+id/circleWhiteConcrete"
+                android:gravity="center_horizontal"
+                android:layout_alignBottom="@+id/circleWhiteConcrete"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="62dp"
+                android:text="TemperatureRange" />
+
+            <TextView
+                android:id="@+id/Dirt"
+                android:layout_width="367dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/WhiteConcrete"
+                android:background="@drawable/dirt" />
+
+            <TextView
+                android:layout_width="149dp"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/Dirt"
+                android:layout_alignTop="@+id/Dirt"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="19dp"
+                android:layout_toStartOf="@+id/circleDirt"
+                android:layout_toLeftOf="@+id/circleDirt"
+                android:text="Dirt"
+                android:textColor="@color/white"
+                android:textSize="35dp" />
+
+
+            <TextView
+                android:id="@+id/circleDirt"
+                android:layout_width="160dp"
+                android:layout_height="142dp"
+                android:layout_below="@+id/WhiteConcrete"
+                android:layout_alignRight="@+id/Dirt"
+                android:layout_alignBottom="@+id/Dirt"
+                android:layout_marginTop="21dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/circle" />
+
+            <TextView
+                android:id="@+id/circleDirtText"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignStart="@+id/circleDirt"
+                android:layout_alignLeft="@+id/circleDirt"
+                android:layout_alignTop="@+id/circleDirt"
+                android:layout_alignEnd="@+id/circleDirt"
+                android:layout_alignRight="@+id/circleDirt"
+                android:layout_alignBottom="@+id/circleDirt"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="62dp"
+                android:text="TemperatureRange" />
+
+            <TextView
+                android:id="@+id/Grass"
+                android:layout_width="367dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/Dirt"
+                android:background="@drawable/grass" />
+
+            <TextView
+                android:layout_width="149dp"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/Grass"
+                android:layout_alignTop="@+id/Grass"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="19dp"
+                android:layout_toStartOf="@+id/circleGrass"
+                android:layout_toLeftOf="@+id/circleGrass"
+                android:text="Grass"
+                android:textColor="@color/white"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/circleGrass"
+                android:layout_width="160dp"
+                android:layout_height="142dp"
+                android:layout_below="@+id/Dirt"
+                android:layout_alignRight="@+id/Grass"
+                android:layout_alignBottom="@+id/Grass"
+                android:layout_marginTop="21dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/circle" />
+
+            <TextView
+                android:id="@+id/circleGrassText"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_height="25dp"
+                android:layout_alignStart="@+id/circleGrass"
+                android:layout_alignLeft="@+id/circleGrass"
+                android:layout_alignTop="@+id/circleGrass"
+                android:layout_alignEnd="@+id/circleGrass"
+                android:layout_alignRight="@+id/circleGrass"
+                android:layout_alignBottom="@+id/circleGrass"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="62dp"
+                android:text="TemperatureRange" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
