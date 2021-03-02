@@ -27,3 +27,8 @@
 <p> This activity, is used for when the there is a difference in the reading, the person using the application can send an email to us that contains all of the useful information that is provided by the open weather api website api that we are using </p> <br>
 
 <p>Email functionly is used for further develop and testing into this application to allow to capture a whole range of readings.</p>
+
+
+# To Do List
+<p> This is my list of things i have to do, if I want to release this application to google play store </p> <br>
+<p>Create prompts and develop more tests</p><br>
